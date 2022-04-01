@@ -1,6 +1,36 @@
+body{
+    overflow-x: hidden;
+}
+
+#sticky-navbar{
+    position: -webkit-sticky;
+    position: sticky;
+}
+
+#page-hero-content-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+}
+
+.buffer{
+    height: 100vh;
+}
+
+#hero-discord-logo{
+    transform: rotate(34deg);
+}
+
 #page-hero{
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+    height: 100vh;
+    width: 100vw;
+    font-size: 3rem;
+    background-color: #282828;
+    color: white;
 }
