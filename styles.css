@@ -7,6 +7,18 @@ body{
     position: sticky;
 }
 
+.web-app-button{
+    background-color: #5865F2 !important;
+    color: white;
+    margin-right: 20px;
+    border: none;
+}
+
+.web-app-button:hover{
+    background-color: #505deb !important;
+    color: white;
+}
+
 #page-hero-content-container{
     display: flex;
     justify-content: center;
@@ -19,15 +31,12 @@ body{
     height: 100vh;
 }
 
-#hero-discord-logo{
-    transform: rotate(34deg);
-}
-
 #page-hero{
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+    flex-direction: column;
     height: 100vh;
     width: 100vw;
     font-size: 3rem;
