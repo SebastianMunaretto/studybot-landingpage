@@ -2,6 +2,33 @@ body{
     overflow-x: hidden;
 }
 
+.features-container{
+    background-color: #282828;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    height: 50vh;
+    width: 100vw;
+    padding: 0 5vw 0 5vw;
+}
+
+.feature-container{
+    max-width: 200px;
+    width: 15vw;
+}
+
+.feature-container img{
+    max-width: 200px;
+    margin-bottom: 20px;
+}
+
+.feature-container p{
+    text-align: center;
+    font-size: 1.2rem;
+    color: white;
+}
+
 #sticky-navbar{
     position: sticky !important;
     top: 0px !important;
@@ -16,7 +43,7 @@ body{
 
 ::-webkit-scrollbar-track
 {
-	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
 	border-radius: 10px;
 	background-color: #565656;
 }
@@ -30,7 +57,7 @@ body{
 ::-webkit-scrollbar-thumb
 {
 	border-radius: 10px;
-	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	box-shadow: inset 0 0 6px rgba(0,0,0,.3);
 	background-color: #5865F2
 }
 
