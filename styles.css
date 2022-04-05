@@ -2,12 +2,32 @@ body{
     overflow-x: hidden;
 }
 
+.graduated-icon{
+    width: 300px;
+}
+
+.about-the-project-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 75px;
+    flex-direction: row;
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+.about-the-project-textbox{
+    max-width: 300px;
+}
+
+
 .features-container{
     background-color: #282828;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
+    min-height: 400px;
     height: 50vh;
     width: 100vw;
     padding: 0 5vw 0 5vw;
