@@ -1,0 +1,32 @@
+.doc-sidepanel-list {
+    margin-top: 50px;
+    list-style: none;
+    color: white;
+}
+
+a{
+    color: white;
+}
+
+body {
+    background-color: #282828;
+}
+
+.doc-sidepanel-list li{
+   margin: 10px;
+}
+
+.doc-sidepanel-list a{
+    color: white;
+    margin: 20px;
+    transition: all .2s ease-in-out;
+    text-decoration: none;
+ }
+
+ .doc-sidepanel-list a:active{
+    color: white;
+ }
+
+ .doc-sidepanel-list li:hover{
+    font-size: 1.03rem;
+ }
