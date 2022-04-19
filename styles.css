@@ -208,3 +208,49 @@ footer p {
 footer img {
   width: 44px;
 }
+@media screen and (max-width: 1100px) {
+  
+  .feature-container p {
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+  }  
+
+  .feature-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top:  50px;
+    margin-bottom: 20px;
+    max-width: 500px;
+    width: 50vw;
+  }
+
+  .features-container {
+    height: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .about-the-project-container {
+    display: flex;
+    align-items: center;
+    margin: 75px;
+    flex-direction: column;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+  .about-the-project-container h3{
+    margin: 30px 0 30px 0;
+    font-size: 2rem;
+  }
+
+  .about-the-project-textbox {
+    width: 100%;
+  }
+}
