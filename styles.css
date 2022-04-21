@@ -12,7 +12,8 @@ body {
   padding: 0;
 }
 
-.graduated-icon {
+.big-icon {
+  margin: 20px;
   width: 300px;
 }
 
